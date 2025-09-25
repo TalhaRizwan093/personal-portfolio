@@ -120,6 +120,11 @@ const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
 const formBtn = document.querySelector("[data-form-btn]");
 
+// Initialize EmailJS
+(function() {
+  emailjs.init("Z0HsKIayHUJR-rBD1"); // Replace with your EmailJS public key
+})();
+
 // add event to all form input field
 for (let i = 0; i < formInputs.length; i++) {
   formInputs[i].addEventListener("input", function () {
@@ -132,6 +137,58 @@ for (let i = 0; i < formInputs.length; i++) {
     }
 
   });
+}
+
+// Form submission handler
+form.addEventListener("submit", function(e) {
+  e.preventDefault();
+  
+  // Show loading state
+  const originalText = formBtn.querySelector('span').textContent;
+  formBtn.querySelector('span').textContent = 'Sending...';
+  formBtn.setAttribute('disabled', '');
+  
+  // Get form data
+  const templateParams = {
+    from_name: form.fullname.value,
+    from_email: form.email.value,
+    message: form.message.value,
+    to_name: 'Talha Rizwan', // Your name
+  };
+  
+  // Send email using EmailJS
+  emailjs.send('YOUR_SERVICE_ID', 'template_p2s3tih', templateParams)
+    .then(function(response) {
+      console.log('SUCCESS!', response.status, response.text);
+      showFormStatus('Thank you! Your message has been sent successfully. I\'ll get back to you soon.', 'success');
+      form.reset();
+      formBtn.setAttribute('disabled', '');
+    }, function(error) {
+      console.log('FAILED...', error);
+      showFormStatus('Sorry, there was an error sending your message. Please try again or contact me directly.', 'error');
+    })
+    .finally(function() {
+      // Reset button text
+      formBtn.querySelector('span').textContent = originalText;
+      if (form.checkValidity()) {
+        formBtn.removeAttribute("disabled");
+      }
+    });
+});
+
+// Function to show form status messages
+function showFormStatus(message, type) {
+  const statusDiv = document.getElementById('form-status');
+  const statusMessage = document.getElementById('status-message');
+  
+  statusMessage.textContent = message;
+  statusDiv.className = `form-status ${type}`;
+  statusDiv.style.display = 'block';
+  
+  // Hide message after 5 seconds
+  setTimeout(() => {
+    statusDiv.style.display = 'none';
+  }, 5000);
 }
 
 

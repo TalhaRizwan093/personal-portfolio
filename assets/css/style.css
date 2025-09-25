@@ -1143,6 +1143,31 @@ main {
 
 .contact-form { margin-bottom: 10px; }
 
+.form-status {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.form-status.success {
+  background: rgba(72, 187, 120, 0.1);
+  border: 1px solid rgba(72, 187, 120, 0.3);
+  color: #48bb78;
+}
+
+.form-status.error {
+  background: rgba(245, 101, 101, 0.1);
+  border: 1px solid rgba(245, 101, 101, 0.3);
+  color: #f56565;
+}
+
+.form-status p {
+  margin: 0;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+}
+
 .form-title { margin-bottom: 20px; }
 
 .input-wrapper {

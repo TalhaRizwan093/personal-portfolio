@@ -74,7 +74,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:talha.rizwan@example.com" class="contact-link">talha.rizwan@example.com</a>
+              <a href="mailto:talha.rizwan@example.com" class="contact-link">talharizwan.me@gmail.com</a>
             </div>
 
           </li>
@@ -88,7 +88,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+923001234567" class="contact-link">+92 (300) 123-4567</a>
+              <a href="tel:+923001234567" class="contact-link">+358 449261441</a>
             </div>
 
           </li>
@@ -102,7 +102,7 @@
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time datetime="1995-03-15">March 15, 1995</time>
+              <time datetime="1995-03-15">January 01, 2001</time>
             </div>
 
           </li>
@@ -116,7 +116,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Karachi, Pakistan</address>
+              <address>Turku, Finland</address>
             </div>
 
           </li>
@@ -1130,7 +1130,7 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/place/Turku/@60.4319814,22.0590593,23623m/data=!3m2!1e3!4b1!4m6!3m5!1s0x468c7584818edbbb:0x400b551554bc200!8m2!3d60.4517504!4d22.2485771!16zL20vMGNfeng?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D" 
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
@@ -1138,6 +1138,11 @@
         <section class="contact-form">
 
           <h3 class="h3 form-title">Contact Form</h3>
+
+          <!-- Form Status Messages -->
+          <div class="form-status" id="form-status" style="display: none;">
+            <p id="status-message"></p>
+          </div>
 
           <form action="#" class="form" data-form>
 
@@ -1169,6 +1174,11 @@
 
 
 
+  <!--
+    - EmailJS SDK
+  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
   <!--
     - custom js link
   -->
