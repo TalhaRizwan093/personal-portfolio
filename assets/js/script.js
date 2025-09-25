@@ -157,7 +157,7 @@ form.addEventListener("submit", function(e) {
   };
   
   // Send email using EmailJS
-  emailjs.send('YOUR_SERVICE_ID', 'template_p2s3tih', templateParams)
+  emailjs.send('YOUR_SERVICE_ID', 'service_sk5gw2q', templateParams)
     .then(function(response) {
       console.log('SUCCESS!', response.status, response.text);
       showFormStatus('Thank you! Your message has been sent successfully. I\'ll get back to you soon.', 'success');
