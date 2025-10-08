@@ -51,6 +51,67 @@
         height: 150px;
       }
     }
+
+    /* Download CV Button Styling */
+    .cv-download-btn {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 30px;
+      background: linear-gradient(to bottom right, hsl(45, 100%, 71%) 0%, hsla(36, 100%, 69%, 0) 50%);
+      background-color: hsl(45, 100%, 72%);
+      color: hsl(0, 0%, 7%);
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 16px 40px hsla(0, 0%, 0%, 0.25);
+      transition: all 0.25s ease;
+      z-index: 1;
+    }
+
+    .cv-download-btn::before {
+      content: "";
+      position: absolute;
+      inset: 1px;
+      background: linear-gradient(135deg, hsla(45, 100%, 71%, 0.251) 0%, hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
+      border-radius: inherit;
+      z-index: -1;
+      transition: all 0.25s ease;
+    }
+
+    .cv-download-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 20px 50px hsla(0, 0%, 0%, 0.35);
+      background: linear-gradient(to bottom right, hsl(45, 100%, 75%) 0%, hsla(36, 100%, 72%, 0) 50%);
+    }
+
+    .cv-download-btn:hover::before {
+      background: linear-gradient(135deg, hsla(45, 100%, 75%, 0.4) 0%, hsla(35, 100%, 70%, 0) 59.86%), hsl(240, 2%, 15%);
+    }
+
+    .cv-download-btn ion-icon {
+      font-size: 20px;
+      --ionicon-stroke-width: 50px;
+    }
+
+    /* Center the download button */
+    .download-cv {
+      text-align: center;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 580px) {
+      .cv-download-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+      }
+      
+      .cv-download-btn ion-icon {
+        font-size: 18px;
+      }
+    }
   </style>
 
   <!--
@@ -256,6 +317,14 @@
             with a strong focus on backend performance, security, and scalability. My experience spans event-driven architectures, 
             microservices, and cloud-native solutions.
           </p>
+        </section>
+
+        <!-- Download CV Button -->
+        <section class="download-cv" style="margin: 30px 0;">
+          <a href="./Resume_Talha.pdf" download="Talha_Rizwan_Resume.pdf" class="cv-download-btn">
+            <ion-icon name="download-outline"></ion-icon>
+            <span>Download CV</span>
+          </a>
         </section>
 
 
