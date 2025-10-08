@@ -16,6 +16,41 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <!-- Custom avatar styling -->
+  <style>
+    .avatar-box {
+      border-radius: 50% !important;
+      overflow: hidden;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .avatar-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    /* Responsive avatar sizing */
+    @media (min-width: 580px) {
+      .avatar-box {
+        width: 120px;
+        height: 120px;
+      }
+    }
+    
+    @media (min-width: 1250px) {
+      .avatar-box {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
 
   <!--
     - google font link
