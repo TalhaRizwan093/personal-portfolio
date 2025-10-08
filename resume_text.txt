@@ -1,0 +1,93 @@
++358 44 9261441
+
+TALHA RIZWAN
+SOFTWARE ENGINEER Turku, Finland
+talharizwan.me@gmail.com linkedin.com/in/tr-talharizwan
+
+github.com/TalhaRizwan093
+
+Profile
+I am a passionate software engineer with industry experience and a prestigious gold medal in Software Engineering. With a dedicated and fast-learning mindset, I've worked across diverse tech stacks specializing in Java, Spring-boot. I take pride in delivering quality work with creativity and independence. My enthusiasm for new technologies, especially in AI, drives me to stay curious and adaptable. When I'm not diving into full-stack challenges or building scalable solutions, I'm exploring the latest innovations and pushing myself to grow as a developer.
+
+Experience
+Software Engineer - Java Developer Global Financial Media -- Mubasher Info
+
+February 2025 - August 2025 Islamabad, Pakistan
+
+· Migrated a monolithic Spring-based system to a scalable event-driven architecture using AWS Lambda, significantly improving data reliability and fault tolerance for real-time MENA stocks data.
+· Designed and implemented a robust event failure handling mechanism to persist, monitor, and retry failed events (e.g., DB locks, system downtime), enhancing system resilience.
+· Led the integration of Discord into Tadawuly, a Spring Boot based social platform, including full OAuth2 flow, bot onboarding, and real-time post/message sync using Discord Gateway and kafka.
+· Developed backend services using Java 17, Spring Boot, Redis (for caching), RabbitMQ, and WebSockets for real-time features across multiple financial data products.
+· Regularly collaborated in Agile sprints, delivering features and fixes via JIRA managed tasks, conducting PR reviews, and participating in stand-ups and sprint reviews.
+· Consistently recognized by leadership for delivering complex features efficiently and on time, while ensuring high code quality and strong ownership.
+
+Software Engineer - Java Developer Tangent Technologies - WoW Health
+
+November 2024 - February 2025 Islamabad, Pakistan
+
+· Gained in-depth understanding of WoW Health's software architecture, including integrations with third-party services, payment gateways, and internal financial systems.
+· Engineered a core banking refund rollover system for invoicing using Java, Spring boot.
+· Designed and deployed a commission module to distribute commission amounts to agencies using Java, Spring boot and Jenkins.
+· Explored Google Cloud Platform (GCP) deployment infrastructure along with the Rewamped microservice architecture.
+· Gained hands-on exposure to multi-tenancy design patterns in backend systems.
+
+Software Engineer Alachisoft - NCache
+
+January 2024 - November 2024 Islamabad, Pakistan
+
+· Gained hands-on experience building enterprise caching solution using C#.
+· Contributed to the development of NCache Playground, a browser-accessible platform offering isolated, containerized environments for real-time NCache trials using Docker and ASP.Net core.
+· Worked on a SaaS platform for provisioning and managing NCache environments on AWS and Azure, including automation of VMs, networks, subnets, and billing using Terraform.
+
+Education
+
+University of Turku, Finland
+
+2025 - Ongoing
+
+Master's in Information and Communication Technology, Software Engineering Track
+
+ Learning advance courses in software engineering with a focus on distributed and scalable systems.
+
+ Focusing on research work in green computing for large data centers and energy efficient solutions.
+
+COMSATS University Islamabad, Islamabad
+
+2020 - 2024
+
+Bachelor of Science in Software Engineering
+
+CGPA 3.77/4.00
+
+ I learned Efficient Problem Solving Skills, enhancing my ability to optimize code performance and solve complex problems. Emphasizing on strong foundation in data structures and algorithms.
+
+ I studied Modular and Reusable Code Design, which helps me write maintainable and scalable software. This makes it easier to manage and extend applications in a professional setting.
+
+ With a strong focus on Software Engineering, I learned and experienced a practical software development life cycle with latest industry driven approach.
+
+ My thesis in web applications allowed me to analyze industry-rated web applications incorporating modern AI modules powering businesses with millions of customers.
+
+Technical Skills
+
+Languages Java (8.0/11.0/17.0), Node JS, .Net, Python, SQL
+
+Web Spring Security, Spring Data JPA, Spring Integration, Json Web Token (JWT)
+
+Databases MySQL, PostgreSQL, MongoDB, Redis
+
+Frameworks Spring Framework, Express JS, Flask
+
+Architectures REST, MVC, Microservice, gRPC
+
+Tools & Other Soft Skills
+
+AWS, Git, Kafka, CI/CD, Docker, Jira, Linux, Object-Oriented Programming (OOP), Debugging
+Attention to Detail, Problem-Solving, Communication, Time Management, Teamwork, Adaptability, Ability to Work Independently, Work Ethic, Negotiation, Self-Motivation
+
+Achievements
+Academic Gold Medal I was awarded with the prestigious award of Academic gold medal.
+
+Certifications
+SOLID Principles: Introducing Software Architecture & Design Distributed Systems & Cloud Computing with Java AWS Cloud Technical Essentials Machine Learning for Absolute Beginners - Level 1 Artificial Intelligence A-Z 2024: Build 7 AI + LLM & ChatGPT Cisco Networking Academy, CCNAv7: Introduction to Networks
+
+
